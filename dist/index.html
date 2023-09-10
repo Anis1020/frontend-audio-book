@@ -1,132 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Audio Books</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-   <div class="bg-gray-200">
-    <header class="px-2 lg:px-32 m-auto py-4">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="bg-gray-200">
+      <header class="px-2 lg:px-32 m-auto py-4">
         <div class="flex justify-between items-center">
-            <span>pti</span>
-           <span class="relative">
-            <i class="fa-brands fa-searchengin absolute left-4 top-3 text-lg text-orange-500"></i>
-            <input class="p-2 ps-10  w-36 lg:w-64 rounded-xl" type="text" placeholder="search book">
-           
-           </span>
-            <select class="p-2 rounded-xl" name="menu" id="menu">
-                <option value="home">Home</option>
-                <option value="details">Details</option>
-                <option value="category">Category</option>
-                <option value="my-favorite">My Favorite</option>
-                <option value="profile">Profile</option>
-                <option value="login">Log in/Sign in</option>
-            </select>
-            <span class="bg-orange-300 p-2 rounded-3xl w-10 ">
-                <i class="fa-regular fa-user ms-1"></i>
-            </span>
+          <span>pti</span>
+          <span class="relative">
+            <i
+              class="fa-brands fa-searchengin absolute left-4 top-3 text-lg text-orange-500"
+            ></i>
+            <input
+              class="p-2 ps-10 w-36 lg:w-64 rounded-xl"
+              type="text"
+              placeholder="search book"
+            />
+          </span>
+          <select class="p-2 rounded-xl" name="menu" id="menu">
+            <option value="home">Home</option>
+            <option value="details">Details</option>
+            <option value="category">Category</option>
+            <option value="my-favorite">My Favorite</option>
+            <option value="profile">Profile</option>
+            <option value="login">Log in/Sign in</option>
+          </select>
+          <span class="bg-orange-300 p-2 rounded-3xl w-10">
+            <i class="fa-regular fa-user ms-1"></i>
+          </span>
         </div>
-
-    </header>
-    <!-- main start here section -->
-    <main class="p-2 lg:px-32 py-4">
+      </header>
+      <!-- main start here section -->
+      <main class="p-2 lg:px-32 py-4">
         <!-- hero section -->
-        <div class=" flex flex-col lg:flex-row justify-evenly items-center bg-yellow-500 rounded-md px-7 py-5 my-24  lg:my-7">
-            <div class="-mt-28 lg:m-0 m-auto ">
-                <h2 class="text-center lg:text-left">Instant Access To <br> Millions Of Audiobooks.</h2>
-                <small class="text-center lg:text-left">Buy Two selected Books And Get One For Free</small>
-            </div>
-           <div class="w-32 m-auto  mt-7 lg:m-0"> <img src="../assets/img1.jpg" class="w-full" alt=""></div>
+        <div
+          class="flex flex-col lg:flex-row justify-evenly items-center bg-yellow-500 rounded-md px-7 py-5 my-24 lg:my-7"
+        >
+          <div class="-mt-28 lg:m-0 m-auto">
+            <h2 class="text-center lg:text-left">
+              Instant Access To <br />
+              Millions Of Audiobooks.
+            </h2>
+            <small class="text-center lg:text-left"
+              >Buy Two selected Books And Get One For Free</small
+            >
+          </div>
+          <div class="w-36 m-auto mt-7 lg:m-0">
+            <img src="../assets/5764337 1.png" class="w-full" alt="" />
+          </div>
         </div>
         <!-- book section start here -->
         <section>
-           <div class="py-6">
+          <div class="py-6">
             <div class="flex justify-between">
-                <strong>Popular Audionbooks</strong>
-                 <span>See More <i class="fa-solid fa-angle-right text-orange-500"></i> </span>
+              <strong>Popular Audionbooks</strong>
+              <span>
+                <i class="fa-solid fa-angle-left text-orange-500"></i>
+                See More
+                <i class="fa-solid fa-angle-right text-orange-500"></i>
+              </span>
             </div>
-            <div class="grid grid-cols-2 lg:grid-cols-5 justify-between gap-3 mt-3">
-                <div class="w-48 h-52 bg-blue-200 gap-3">
-                    <img src="#" alt="">
-                    <p>The Good The Bad Situation</p>
-                </div>
-                <div class="w-48 h-52 bg-blue-200 gap-3">
-                    <img src="#" alt="">
-                    <p>The Good The Bad Situation</p>
-                </div>
-                <div class="w-48 h-52 bg-blue-200 gap-3">
-                    <img src="#" alt="">
-                    <p>The Good The Bad Situation</p>
-                </div>
-                <div class="w-48 h-52 bg-blue-200 gap-3">
-                    <img src="#" alt="">
-                    <p>The Good The Bad Situation</p>
-                </div>
-                <div class="w-48 h-52 bg-blue-200">
-                    <img src="#" alt="">
-                    <p>The Good The Bad Situation</p>
-                </div>
+            <div
+              class="grid grid-flow-col-dense overflow-hidden justify-between mt-3 gap-3"
+            >
+              <div class="w-32 lg:w-full">
+                <img
+                  src="../assets/popular book/image 135.jpg"
+                  class=""
+                  alt=""
+                />
+                <p>The Good The Bad Situation</p>
+              </div>
+              <div class="w-32 lg:w-full">
+                <img
+                  src="../assets/popular book/Rectangle 2327.jpg"
+                  class=""
+                  alt=""
+                />
+                <p>The Good The Bad Situation</p>
+              </div>
+              <div class="w-32 lg:w-full">
+                <img src="../assets/popular book/Rectangle 2328.jpg" alt="" />
+                <p>The Good The Bad Situation</p>
+              </div>
+              <div class="w-32 lg:w-full">
+                <img src="../assets/popular book/Rectangle 2330.jpg" alt="" />
+                <p>The Good The Bad Situation</p>
+              </div>
+              <div class="w-32 lg:w-full">
+                <img src="../assets/popular book/Rectangle 2331.jpg" alt="" />
+                <p>The Good The Bad Situation</p>
+              </div>
             </div>
-           </div>
-           <!-- Recomneded book -->
-           <div class="py-3">
+          </div>
+          <!-- Recomneded book -->
+          <div class="py-6">
             <div class="flex justify-between">
-                <strong>Recomneded Audionbooks</strong>
-            <span>See More <i class="fa-solid fa-angle-right text-orange-500"></i> </span>
+              <strong>Popular Audionbooks</strong>
+              <span>
+                <i class="fa-solid fa-angle-left text-orange-500"></i>
+                See More
+                <i class="fa-solid fa-angle-right text-orange-500"></i>
+              </span>
             </div>
-            <div class="grid grid-cols-2 lg:grid-cols-5 justify-between gap-3 mt-3">
-                <div class="w-48 h-52 bg-blue-200 gap-3">
-                    <img src="#" alt="">
-                    <p>The Good The Bad Situation</p>
-                </div>
-                <div class="w-48 h-52 bg-blue-200 gap-3">
-                    <img src="#" alt="">
-                    <p>The Good The Bad Situation</p>
-                </div>
-                <div class="w-48 h-52 bg-blue-200 gap-3">
-                    <img src="#" alt="">
-                    <p>The Good The Bad Situation</p>
-                </div>
-                <div class="w-48 h-52 bg-blue-200 gap-3">
-                    <img src="#" alt="">
-                    <p>The Good The Bad Situation</p>
-                </div>
-                <div class="w-48 h-52 bg-blue-200">
-                    <img src="#" alt="">
-                    <p>The Good The Bad Situation</p>
-                </div>
+            <div
+              class="grid grid-flow-col-dense overflow-hidden justify-between mt-3 gap-3"
+            >
+              <div class="w-32 lg:w-full">
+                <img
+                  src="../assets/popular book/image 135.jpg"
+                  class=""
+                  alt=""
+                />
+                <p>The Good The Bad Situation</p>
+              </div>
+              <div class="w-32 lg:w-full">
+                <img
+                  src="../assets/popular book/Rectangle 2327.jpg"
+                  class=""
+                  alt=""
+                />
+                <p>The Good The Bad Situation</p>
+              </div>
+              <div class="w-32 lg:w-full">
+                <img src="../assets/popular book/Rectangle 2328.jpg" alt="" />
+                <p>The Good The Bad Situation</p>
+              </div>
+              <div class="w-32 lg:w-full">
+                <img src="../assets/popular book/Rectangle 2330.jpg" alt="" />
+                <p>The Good The Bad Situation</p>
+              </div>
+              <div class="w-32 lg:w-full">
+                <img src="../assets/popular book/Rectangle 2331.jpg" alt="" />
+                <p>The Good The Bad Situation</p>
+              </div>
             </div>
-           </div>
-
+          </div>
         </section>
-
-
-    </main>
-    <!-- footer section -->
-    <footer class="px-2 lg:px-32 py-4 bg-yellow-600 rounded-b-md my-10">
+      </main>
+      <!-- footer section -->
+      <footer class="px-2 lg:px-32 py-4 bg-yellow-600 rounded-b-md my-10">
         <div class="">
-            <input class="p-2 w-full lg:w-64 rounded-xl" type="text" placeholder="Enter your Email">
-             <span class=" bg-orange-500 text-white p-1 rounded-full -ms-24">Subscribe  <i class="fa-solid fa-angle-right text-white"></i> </span>
+          <input
+            class="p-2 w-full lg:w-64 rounded-xl"
+            type="text"
+            placeholder="Enter your Email"
+          />
+          <span class="bg-orange-500 text-white p-1 rounded-full -ms-24"
+            >Subscribe <i class="fa-solid fa-angle-right text-white"></i>
+          </span>
         </div>
-        <div class="flex flex-col-reverse lg:flex-row justify-between py-0 lg:py-8 ">
-            <div class="m-auto lg:m-0 mt-3">
-                <h2 class="text-center lg:text-left font-bold">pit.</h2>
-                <p>copywrite &copy; pti 2023</p>
-            </div>
-            <div class="flex justify-center items-center gap-2">
-                <span class="w-10 h-10  p-2 rounded-full bg-pink-50"><i class="fa-brands  fa-twitter  ms-1 text-orange-400"></i></span>
-                <span class="w-10 h-10  p-2 rounded-full bg-pink-50"><i class="fa-brands  fa-google ms-1 text-orange-400 "></i></span>
-                <span class="w-10 h-10  p-2 rounded-full bg-pink-50"><i class="fa-solid  fa-book  ms-1 text-orange-400"></i></span>
-            </div>
-            <div class="invisible lg:visible border-orange-700 border-8 w-40 h-40 -mt-28 bg-pink-50 ">
-                image with design
-            </div>
+        <div
+          class="flex flex-col-reverse lg:flex-row justify-between py-0 lg:py-8"
+        >
+          <div class="m-auto lg:m-0 mt-3">
+            <h2 class="text-center lg:text-left font-bold">pit.</h2>
+            <p>copywrite &copy; pti 2023</p>
+          </div>
+          <div class="flex justify-center items-center gap-2">
+            <span class="w-10 h-10 p-2 rounded-full bg-pink-50"
+              ><i class="fa-brands fa-twitter ms-1 text-orange-400"></i
+            ></span>
+            <span class="w-10 h-10 p-2 rounded-full bg-pink-50"
+              ><i class="fa-brands fa-google ms-1 text-orange-400"></i
+            ></span>
+            <span class="w-10 h-10 p-2 rounded-full bg-pink-50"
+              ><i class="fa-solid fa-book ms-1 text-orange-400"></i
+            ></span>
+          </div>
+          <div class="invisible lg:visible -mt-28">
+            <img
+              src="../assets/undraw_meditating_re_aiqa 1.png"
+              class="w-56"
+              alt=""
+            />
+          </div>
         </div>
-    </footer>
-   </div>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
